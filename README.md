@@ -29,14 +29,7 @@ npm run dev
  Exécution des tests
  Exécuter tous les tests
 
-composer test
- L’exemple ci-dessus exécute phpunit, phpcs, phpmd et larastan. Infos trouvées dans le reste de ce paragraphe.
-
 phpunit - tous les tests définis
 Cette commande exécutera tous les tests unitaires php trouvés dans le dossier de test. cela inclut les tests d’unité ainsi que les tests de fonctionnalité.
-
-./vendor/bin/phpunit
-Analyseurs de code statique et tests de style de codage
-Pour exécuter tous les analyseurs à la fois :
 
 composer lint
